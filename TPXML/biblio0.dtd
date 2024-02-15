@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT BIBLIO (ETUDIANT+) >
+<!ELEMENT ETUDIANT (LIVRE+) >
+<!ELEMENT LIVRE EMPTY>
+<!ATTLIST ETUDIANT 
+             code NMTOKEN #REQUIRED 
+             nom CDATA #REQUIRED 
+             prenom CDATA #REQUIRED 
+             age NMTOKEN #IMPLIED>
+<!ATTLIST LIVRE 
+             id NMTOKEN #REQUIRED 
+             titre CDATA #REQUIRED 
+             dateEmprunt CDATA #REQUIRED  
+             rendu (OUI|NON) "NON" >

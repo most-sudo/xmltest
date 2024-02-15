@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!DOCTYPE BIBLIO SYSTEM "./biblio0.dtd">
+<?xml-stylesheet type="text/xsl" href="./biblio1.xsl"?>
+<BIBLIO>
+    <ETUDIANT code="E1" nom="Missaoui" prenom="Mostapha" age="20">
+        <LIVRE id="L1" titre="Java" dateEmprunt="2022-11-11" rendu="NON"/>
+        <LIVRE id="L2" titre="XML" dateEmprunt="2022-12-11" rendu="OUI"/>
+    </ETUDIANT>
+    <ETUDIANT code="E2" nom="Missaoui" prenom="Abderrahman" age="20">
+        <LIVRE id="L1" titre="Java" dateEmprunt="2022-01-11" rendu="NON"/>
+    </ETUDIANT>
+</BIBLIO>
